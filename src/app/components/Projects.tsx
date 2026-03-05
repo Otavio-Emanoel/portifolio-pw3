@@ -28,7 +28,6 @@ export default function Projects() {
                   alt={`Preview do projeto ${project.title}`}
                   fill
                   className="object-cover"
-                  onError={() => {}}
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
               </div>
